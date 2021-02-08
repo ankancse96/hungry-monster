@@ -68,13 +68,21 @@ function mealRecipeModal(meal){
         </div>
         <h2 class = "recipe-title">Title: ${meal.strMeal}</h2>
         <p class = "tags">Tags: ${meal.strTags}</p>
+        <p class = "ingredient">Ingredient:
+        <p>1. ${meal.strIngredient1}</p>
+        <p>2.${meal.strIngredient2}</p>
+        <p>3.${meal.strIngredient3}</p>
+        <p>4.${meal.strIngredient4}</p>
+        <p>5.${meal.strIngredient5}</p>
+        <p>6.${meal.strIngredient6}</p>
+        <p>7.${meal.strIngredient7}</p>
+        <p>8.${meal.strIngredient8}</p>
+        <p>9.${meal.strIngredient9}</p>
+        <p>10.${meal.strIngredient10}</p>
+        
         <p class = "recipe-category">Category: ${meal.strCategory}</p>
-        <div class = "recipe-instruct">
-            <h3>Instructions:</h3>
-            <p>${meal.strInstructions}</p>
-        </div>
-        <div class = "recipe-meal-img">
-        <p> Area: ${meal.strArea}</p>
+        
+        
            
         </div>
         
